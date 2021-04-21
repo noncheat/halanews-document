@@ -1,0 +1,35 @@
+{
+  "name": "halanews-document",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "pdf": "node hoge.js",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-alpha.73",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.73",
+    "classnames": "^2.2.6",
+    "global": "^4.4.0",
+    "hummus": "^1.0.108",
+    "memory-streams": "^0.1.3",
+    "puppeteer": "^3.0.4",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
