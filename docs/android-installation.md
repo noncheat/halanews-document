@@ -14,7 +14,7 @@ Install [Android Studio](https://developer.android.com/studio/index.html). Follo
 
 After installing the Android SDK, you must also install the packages for whatever API level you wish to target. It is `recommended that you install the highest SDK version` that your version of cordova-android supports (see [Requirements and Support](https://cordova.apache.org/docs/en/9.x/guide/platforms/android/index.html#requirements-and-support)).
 
-Example, cordova-android@9 support Android API 29. So you need install SDK Platform for API Level 29
+> Example, cordova-android@10 support Android API 30. So you need install SDK Platform for API Level 30
 
 Open the Android SDK Manager by click Configure -> SDK Manager
 

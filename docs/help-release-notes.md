@@ -6,6 +6,21 @@ sidebar_label: Release notes
 
 All notable changes to this project will be documented here.
 
+## 1.1.7
+- Update cordova-android platform 10 and plugins
+- Improve code logic
+## 1.1.6
+- Support Admob iOS 14 transparency
+- Support Cloudflare firewall / under attack mode
+- Add change font size
+- Fix some small bugs
+## 1.1.5
+- Update packages and cordova plugins
+- Support RTL dynamic config
+- Contact form 7 validate invalid field focus
+- Change splashscreen default Noncheat
+- Add more easy customizable
+- Fix some minor bugs
 ## 1.1.4
 - Update packages, plugins, support AndroidX
 - Optimized code, better, easy customize more
