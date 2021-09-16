@@ -8,7 +8,41 @@ All problems will update here. Please try find your problems before [contact us]
 
 > Make sure you have same error message and platform
 
-## iOS only
+## Android
+
+### Gradle minimium required
+
+Reason: your Android Studio/Gradle version not match minimium required of latest application sources version
+
+Solution:
+
+* Close Android Studio
+* Delete gradle cache:
+    - All inside C:\Users\\[username]\\.gradle\wrapper\dists\
+    - All inside C:\Users\\[username]\\.gradle\caches\
+    - On Macos, Linux location replace `C:\Users\[username]\` by `~/.gradle`
+* Update Android Studio to latest version
+* Run command
+
+    ```
+    ionic cordova platform rm android
+    ionic cordova platform add android
+    ```
+* Open project in Android Studio again
+
+### Android Studio build-tools 31 not work
+
+Reason: current cordova-android platform version not support latest build-tools version
+
+Solution: install old version of build-tools android sdk
+
+* Open Android Studio SDK manager select tab `SDK Tools`
+* Check "Show Package Details" and expand `Android SDK Build-Tools...`
+* Install build-tools version required in error message (Example: 30.0.3)
+
+![](/docs/assets/problems-android-build-tools.png)
+
+## iOS
 
 ### An error occurred while running subprocess cordova
 
