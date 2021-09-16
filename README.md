@@ -43,5 +43,5 @@ Start Local Development
 
 ```
 npm run start
-npn run pdf
+npm run pdf
 ```
