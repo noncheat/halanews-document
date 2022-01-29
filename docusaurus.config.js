@@ -7,7 +7,6 @@ module.exports = {
   organizationName: "noncheat", // Usually your GitHub org/user name.
   projectName: "halanews-document", // Usually your repo name.
   themeConfig: {
-    sidebarCollapsible: false,
     navbar: {
       title: "Hala News",
       logo: {
@@ -35,6 +34,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          sidebarCollapsible: false,
           sidebarPath: require.resolve("./sidebars.js"),
         },
         theme: {
