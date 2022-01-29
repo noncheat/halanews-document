@@ -28,7 +28,7 @@ If you’re new to the command line, please read <a href="http://blog.ionicframe
 
 As you know, our news application was designed for WordPress. If you already have a WordPress website, it is too simple! Otherwise, take a moment to learn about [WordPress](https://wordpress.org/).
 
-Then just install plugin [Stionic core](https://wordpress.org/plugins/stionic-core/) to complete Backend process.
+Then just install plugin [Stionic core](https://wordpress.org/plugins/stionic-core/) ([Google Drive link](https://drive.google.com/file/d/13_Euw8lsziMESizL7q7u47kGKKfkiuru/view?usp=sharing)) to complete Backend process.
 
 ## Install Node modules
 

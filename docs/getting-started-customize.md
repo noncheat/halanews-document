@@ -38,7 +38,7 @@ For remove or add more images you need edit `/src/app/app.html`. In `ion-slides`
 
 First install the required plugins:
 
-[Stionic Users](https://wordpress.org/plugins/stionic-users/) – extend API endpoint for manager users
+[Stionic Users](https://wordpress.org/plugins/stionic-users/) ([Google Drive link](https://drive.google.com/file/d/1zAB_PnuPGNW7zKlF_3ZjKxE3u4bPXpsA/view?usp=sharing)) – extend API endpoint for manager users
 
 [JWT Authentication for WP REST API](https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/) – allow authentication with token
 
