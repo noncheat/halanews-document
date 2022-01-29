@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhalanews_document=self.webpackChunkhalanews_document||[]).push([[31],{6390:function(e){e.exports={blogPosts:[]}}}]);
