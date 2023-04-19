@@ -8,6 +8,7 @@ Run everytime before you build want to build app in Android Studio when have cha
 
 ```
 ionic cordova prepare android --prod
+cordova build android
 ```
 
 If building debug version then you should not use `--prod` for save time
