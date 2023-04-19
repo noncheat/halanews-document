@@ -28,7 +28,11 @@ If you’re new to the command line, please read <a href="http://blog.ionicframe
 
 As you know, our news application was designed for WordPress. If you already have a WordPress website, it is too simple! Otherwise, take a moment to learn about [WordPress](https://wordpress.org/).
 
-Then just install plugin [Stionic core](https://wordpress.org/plugins/stionic-core/) ([Google Drive link](https://drive.google.com/file/d/13_Euw8lsziMESizL7q7u47kGKKfkiuru/view?usp=sharing)) to complete Backend process.
+First you need setting [WordPress permalink structure](https://wordpress.org/documentation/article/customize-permalinks/#choosing-your-permalink-structure) into any kind other than `Plain` to enable WordPress REST API.
+
+On the WordPress dashboard, go to Settings →︎ Permalinks Screen. You can choose one of the permalink structures (exclude Plain) or enter your own in the “Custom structure” field using the structure tags.
+
+Then just install plugin [Stionic core](https://wordpress.org/plugins/stionic-core/) to complete Backend process.
 
 ## Install Node modules
 
