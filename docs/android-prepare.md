@@ -9,7 +9,7 @@ sidebar_label: Prepare
 For build Ionic/Cordova sources to Android project simple run follow command:
 
 ```
-ionic cordova platform add android
+ionic cordova platform add android@11
 ```
 
 After run command, it will create `/platforms/android`
@@ -30,7 +30,7 @@ It’s great that Ionic offers a tool for creating icons and splash screens auto
 
 1. Install cordova-res IF not installed yet by run `npm i -g cordova-res`
 
-2. Replace `/resources/icon.png` and `/resources/splash.png` by your image.
+2. Replace `/resources/icon.png` and `/resources/splash/icon.png` by your image.
 
 3. Run `ionic cordova resources android` create image assets
 
